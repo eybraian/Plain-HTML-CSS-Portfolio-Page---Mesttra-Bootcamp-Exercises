@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(225, 231, 226);
+    background-color: #343633;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/074/621/449/large/eybraian-bonifacio-kingfinalvers.jpg?1712542888");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+
+.profile-pic {
+    display: block;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgb(43, 29, 29);
+}
+
+
+header {
+    background-color: #2b2e27;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid rgb(39, 11, 11);
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+header nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+
+}
+
+header nav li a:hover {
+    color: rgb(148, 111, 102);
+}
+
+
+/* CORPO */
+
+.container {
+    width: 50%;
+    background-color: #4f554b;
+    padding: 50px;
+    padding-top: auto;
+    margin: 0 auto;
+    border: 0 auto;
+    box-shadow: 0px 0px 50px rgb(43, 29, 29);
+}
+
+.container nav {
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(43, 29, 29);
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: 'New Rocker';
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+    box-shadow: 0px 4px 10px rgb(43, 29, 29);
+    padding: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+    box-shadow: 0px 4px 10px rgb(43, 29, 29);
+    padding: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.about {
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding: 50px;
+    padding-top: auto;
+    margin: 0 auto;
+    border: 0 auto;
+}
+
+.about h2 {
+    border-bottom: 2px solid #b8c0b1;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+}
+
+.about p {
+    text-align: center;
+    padding: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 4px 10px rgb(43, 29, 29);
+    border-radius: 5px;
+}
+
+
+
+
+.habilidades {
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 0;
+    margin: 0 auto;
+    border: 0 auto;
+}
+
+
+.habilidades h2 {
+    border-bottom: 2px solid #b8c0b1;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+}
+
+.habilidades h3 {
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+}
+
+.habilidades ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.habilidades ol li {
+    border: 2px solid #b8c0b1;
+    text-align: center;
+    font-weight: bold;
+    min-width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgb(43, 29, 29);
+}
+
+.habilidades ol li:hover {
+    color: rgb(148, 111, 102);
+}
+
+
+
+.experience {
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 0;
+    margin: 0 auto;
+    border: 0 auto;
+}
+
+.experience h2 {
+    border-bottom: 2px solid #b8c0b1;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+}
+
+.experience-box {
+
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgb(43, 29, 29);
+}
+
+.education {
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 0;
+    margin: 0 auto;
+    border: 0 auto;
+}
+
+.education h2 {
+    border-bottom: 2px solid #b8c0b1;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 10px rgb(43, 29, 29);
+}
+
+.education-box {
+    box-shadow: 2px 2px 10px rgb(43, 29, 29);
+    padding: 5px;
+}
+
+footer {
+    background-color: #2b2e27;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    min-height: 70px;
+    border-top: 5px solid rgb(39, 11, 11);
+    text-align: center;
+    padding: 10px 0;
+    align-items: center;
+    font-size: 20px;
+}
