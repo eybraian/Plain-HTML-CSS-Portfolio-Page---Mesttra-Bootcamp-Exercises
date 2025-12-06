@@ -69,6 +69,7 @@ header nav li a:hover {
 
 .container {
     width: 50%;
+    min-width:min-content;
     background-color: #4f554b;
     padding: 50px;
     padding-top: auto;
@@ -88,13 +89,13 @@ header nav li a:hover {
 }
 
 .container h1 {
+    text-align: center;
     font-size: 40px;
     font-family: 'New Rocker';
     text-shadow: 2px 2px 10px rgb(43, 29, 29);
     padding: 16px;
-    margin-left: 100px;
-    margin-right: 100px;
     border-bottom: 2px solid #b8c0b1;
+    overflow:hidden;
 
 }
 
@@ -104,9 +105,8 @@ header nav li a:hover {
     margin-bottom: 40px;
     text-shadow: 2px 2px 10px rgb(43, 29, 29);
     padding: 1px;
-    margin-left: 100px;
-    margin-right: 100px;
     border-top: 2px solid #b8c0b1;
+    overflow:hidden;
     
 
 }
@@ -205,14 +205,14 @@ header nav li a:hover {
 }
 
 .experience-box {
-
     border-radius: 5px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 20px;
+    max-height: 300px;
+    min-width: 400px;
     padding: 10px;
     box-shadow: 0px 4px 10px rgb(43, 29, 29);
-    overflow:scroll;
 }
 
 .education {
